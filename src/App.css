@@ -36,3 +36,101 @@
     transform: rotate(360deg);
   }
 }
+
+
+.rental-grid{
+  border-collapse: separate;
+  border-spacing: 0.8px;
+  border:0;
+  padding-top:30px;
+}
+
+.rental-grid .table>thead>tr>th{
+  vertical-align: top !important;
+  outline: 0 !important;
+  color: #3b6e8f !important;
+  text-align: left;
+  font-weight:600;
+}
+
+.table-striped tbody tr:nth-of-type(odd){
+  background:#fff;
+}
+
+.table td, .table th{
+  color:grey;
+  font-size:1rem;
+}
+
+.dropdown{
+  display: none;;
+}
+
+.horizontal-button{
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom:10px;
+}
+
+.btn-sm{
+ margin-right: 10px;
+}
+
+.btn-outline-dark:hover{
+  background:#000000;
+  border:grey;
+  border-radius: 1px;
+}
+
+input.text-filter{
+  font-size: 0.8rem;
+    text-align: left;
+    padding-left: 10px;
+    background-size: 22px 23px;
+    background-position: 6px;
+}
+
+.form-control:focus{
+  border-color: none;
+}
+
+input.rbt-input-main.form-control.rbt-input{
+  margin-top:10px;
+}
+
+.date-div{
+  display: flex;
+    flex-direction: row;
+   margin-top: 10px;
+}
+
+.lab{
+  margin-right:12px;
+  display:block;
+  text-align: center;
+}
+
+.mobileBox{
+  margin-top:10px;
+}
+
+.modal-header{
+ border-bottom: 1px solid transparent;
+ padding-bottom:0.1rem;
+}
+
+
+.modal-footer{
+  border-top: 1px solid transparent;
+  padding-top:0.1rem;
+ }
+
+
+.date-div-2{
+  display: block;
+}
+
+.lab2{
+  display:block;
+  text-align: center;
+}
